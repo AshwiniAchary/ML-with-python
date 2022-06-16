@@ -1,0 +1,14 @@
+<Root>:
+    BoxLayout:
+        ButtonIcon:
+            icon: "\uf2c2"
+            ltext: "Text left"
+            rtext: "Text right"
+            text: root.iconText(self.icon, self.ltext, self.rtext)
+            font_size: 25
+            padding: 0.5, 0
+
+<ButtonIcon@Button>:
+    markup: True
+    ltext: ""
+    rtext: ""
